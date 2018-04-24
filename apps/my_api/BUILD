@@ -11,5 +11,6 @@ py_binary(
     deps = [
 	requirement("Flask"),
     ],
+    legacy_create_init = 0,
     main = "__main__.py",
 )
